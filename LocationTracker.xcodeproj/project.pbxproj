@@ -13,6 +13,11 @@
 		4BF9B5E61D48185000C2F893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF9B5E51D48185000C2F893 /* Assets.xcassets */; };
 		4BF9B5E91D48185000C2F893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF9B5E71D48185000C2F893 /* LaunchScreen.storyboard */; };
 		4BF9B5F41D48185000C2F893 /* LocationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9B5F31D48185000C2F893 /* LocationTrackerTests.swift */; };
+		4BF9B5FF1D4822AD00C2F893 /* StatusUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9B5FE1D4822AD00C2F893 /* StatusUpdate.swift */; };
+		4BF9B6001D4822AD00C2F893 /* StatusUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9B5FE1D4822AD00C2F893 /* StatusUpdate.swift */; };
+		4BF9B6021D48253500C2F893 /* StatusUpdateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9B6011D48253500C2F893 /* StatusUpdateTableViewCell.swift */; };
+		4BF9B6051D48287200C2F893 /* StatusUpdateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9B6031D48287200C2F893 /* StatusUpdateTableViewController.swift */; };
+		4BF9B6061D48287200C2F893 /* StatusUpdateTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF9B6041D48287200C2F893 /* StatusUpdateTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 		4BF9B5EF1D48185000C2F893 /* LocationTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF9B5F31D48185000C2F893 /* LocationTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerTests.swift; sourceTree = "<group>"; };
 		4BF9B5F51D48185000C2F893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF9B5FE1D4822AD00C2F893 /* StatusUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUpdate.swift; sourceTree = "<group>"; };
+		4BF9B6011D48253500C2F893 /* StatusUpdateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUpdateTableViewCell.swift; sourceTree = "<group>"; };
+		4BF9B6031D48287200C2F893 /* StatusUpdateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUpdateTableViewController.swift; sourceTree = "<group>"; };
+		4BF9B6041D48287200C2F893 /* StatusUpdateTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusUpdateTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +88,11 @@
 			children = (
 				4BF9B5DE1D48184F00C2F893 /* AppDelegate.swift */,
 				4BF9B5E01D48184F00C2F893 /* ViewController.swift */,
+				4BF9B5FE1D4822AD00C2F893 /* StatusUpdate.swift */,
 				4BF9B5E21D48184F00C2F893 /* Main.storyboard */,
+				4BF9B6031D48287200C2F893 /* StatusUpdateTableViewController.swift */,
+				4BF9B6041D48287200C2F893 /* StatusUpdateTableViewController.xib */,
+				4BF9B6011D48253500C2F893 /* StatusUpdateTableViewCell.swift */,
 				4BF9B5E51D48185000C2F893 /* Assets.xcassets */,
 				4BF9B5E71D48185000C2F893 /* LaunchScreen.storyboard */,
 				4BF9B5EA1D48185000C2F893 /* Info.plist */,
@@ -179,6 +192,7 @@
 			files = (
 				4BF9B5E91D48185000C2F893 /* LaunchScreen.storyboard in Resources */,
 				4BF9B5E61D48185000C2F893 /* Assets.xcassets in Resources */,
+				4BF9B6061D48287200C2F893 /* StatusUpdateTableViewController.xib in Resources */,
 				4BF9B5E41D48184F00C2F893 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF9B6051D48287200C2F893 /* StatusUpdateTableViewController.swift in Sources */,
+				4BF9B6021D48253500C2F893 /* StatusUpdateTableViewCell.swift in Sources */,
+				4BF9B5FF1D4822AD00C2F893 /* StatusUpdate.swift in Sources */,
 				4BF9B5E11D48184F00C2F893 /* ViewController.swift in Sources */,
 				4BF9B5DF1D48184F00C2F893 /* AppDelegate.swift in Sources */,
 			);
@@ -206,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF9B6001D4822AD00C2F893 /* StatusUpdate.swift in Sources */,
 				4BF9B5F41D48185000C2F893 /* LocationTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +408,7 @@
 				4BF9B5FA1D48185000C2F893 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BF9B5FB1D48185000C2F893 /* Build configuration list for PBXNativeTarget "LocationTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +417,7 @@
 				4BF9B5FD1D48185000C2F893 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
